@@ -88,30 +88,30 @@ img{
 @keyframes imagenes{
     0%{
             
-        max-width: 60%
+        max-width: 60%;
         background: url(../img/fondo2.png);
         background-position: center center;
-        background-repeat: no-repeat;
+        
         background-size: cover;
             
             
 
     }
     15%{
-        max-width: 60%
+        max-width: 60%;
         
         background: url(../img/fondo3.png);
         background-position: center center;
-        background-repeat: no-repeat;
+       
         background-size: cover;
            
     }
     30%{
-        max-width: 60%
+        max-width: 60%;
         
         background: url(../img/fondo4.png);
         background-position: center center;
-        background-repeat: no-repeat;
+        
         background-size: cover;
             
         }
