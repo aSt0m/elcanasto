@@ -1,0 +1,147 @@
+
+html{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+*,
+*:before,
+*:after{
+    box-sizing: inherit;
+}
+
+h1{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+h3{
+    font-size: 1.5rem;
+}
+p{
+    font-size: 1rem;
+}
+
+img{
+    max-height: 100%;
+}
+
+.completo{
+    width: 100%;
+    height: 100%;
+}
+.site-header{
+    height: 100vh;
+    background: url(img/_0006_color.png);   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    
+}
+
+.bread{
+    width: 50%;
+    text-align: center;
+    
+
+    
+}
+
+.texto{
+    color: #fffff5;
+    outline-color: wheat;
+    width: 50%;
+    display: inline-block;
+    justify-content: center;
+    text-align: center;
+    
+}
+
+    
+
+.cta{
+    width: 50%;
+    text-align: center;
+    display: inline;
+    border: 1px solid #000;
+    border-radius: 30px;
+    background: #2b5779;
+    padding: 0 25px 3px;
+}
+  
+ 
+.imagenes{
+    text-align: center;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    animation: imagenes 5s  infinite running alternate-reverse linear ;
+    
+}
+    @media (min-width: 768px){
+        .imagenes{
+            display:flex;
+        }
+    }
+
+@keyframes imagenes{
+    0%{
+            
+        height: 100%;
+        background: url(../img/_0006_color.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+            
+            
+
+    }
+    15%{
+        height: 100%;
+        border: 1px solid #000;
+        background: url(../img/_0005_background.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+           
+    }
+    30%{
+        height: 100%;
+        border: 1px solid #000;
+        background: url(../img/_0004_signs.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+            
+        }
+    45%{
+        height: 100%;
+        border: 1px solid #000;
+        background: url(../img/_0003_back-bills.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    60%{
+        height: 100%;
+        background: url(../img/_0002_bills.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    75%{
+        height: 100%;
+        background: url(../img/_0001_coins.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    100%{
+        height: 100%;
+        background: url(../img/_0000_front-bills.png);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+}
