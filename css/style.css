@@ -32,11 +32,11 @@ img{
 }
 .site-header{
     height: 100vh;
-    background-image: url(https://github.com/aSt0m/elcanasto/blob/main/img/_0006_color.png);   
+    background: url(../img/fondo1.png);   
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    /* position: relative; */
     
 }
 
@@ -49,7 +49,7 @@ img{
 }
 
 .texto{
-    color: #000;
+    color: #fffff5;
     outline-color: wheat;
     width: 50%;
     display: inline-block;
@@ -89,7 +89,7 @@ img{
     0%{
             
         height: 100%;
-        background: url(../img/_0006_color.png);
+        background: url(../img/fondo2.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -100,7 +100,7 @@ img{
     15%{
         height: 100%;
         border: 1px solid #000;
-        background: url(../img/_0005_background.png);
+        background: url(../img/fondo3.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -109,7 +109,7 @@ img{
     30%{
         height: 100%;
         border: 1px solid #000;
-        background: url(../img/_0004_signs.png);
+        background: url(../img/fondo4.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -118,21 +118,21 @@ img{
     45%{
         height: 100%;
         border: 1px solid #000;
-        background: url(../img/_0003_back-bills.png);
+        background: url(../img/fondo5.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     60%{
         height: 100%;
-        background: url(../img/_0002_bills.png);
+        background: url(../img/fondo6.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
     }
     75%{
         height: 100%;
-        background: url(../img/_0001_coins.png);
+        background: url(../img/fondo7.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
