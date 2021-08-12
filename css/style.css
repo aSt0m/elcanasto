@@ -32,7 +32,7 @@ img{
 }
 .site-header{
     height: 100vh;
-    background: url(/img/_0006_color.png);   
+    background: url(../img/_0006_color.png);   
     display: flex;
     justify-content: center;
     align-items: center;
@@ -89,7 +89,7 @@ img{
     0%{
             
         height: 100%;
-        background: url(/img/_0006_color.png);
+        background: url(../img/_0006_color.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -109,7 +109,7 @@ img{
     30%{
         height: 100%;
         border: 1px solid #000;
-        background: url(img/_0004_signs.png);
+        background: url(../img/_0004_signs.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -125,7 +125,7 @@ img{
     }
     60%{
         height: 100%;
-        background: url(/img/_0002_bills.png);
+        background: url(../img/_0002_bills.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
@@ -139,7 +139,7 @@ img{
     }
     100%{
         height: 100%;
-        background: url(img/_0000_front-bills.png);
+        background: url(../img/_0000_front-bills.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
