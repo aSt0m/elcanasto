@@ -28,17 +28,10 @@ img{
 @font-face {
     font-family: Chelantro;
     src: url(/fonts/Chelantro.otf);
-    src: url(/fonts/Chelantro.ttf);
-    src: url(/fonts/Chelantro.woff);
-    src: url(/fonts/Chelantro.woff2)
+   
     
 }
-@font-face {
-    font-family: Regad;
-    font-family: Konichiwa;
-    src: url(/fonts/Konichiwa.ttf);
-    src: url(/fonts/Regad.ttf);
-}
+
 
 
 .completo{
@@ -50,10 +43,11 @@ img{
 }
 .site-header{
     height: 100vh;
-    background: url(../img/fondo1-700x1334.png);
+    background: url(../img/fondo.png);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     display: flex;
     justify-content: center;
     align-items: center;
