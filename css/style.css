@@ -27,7 +27,7 @@ img{
 }
 @font-face {
     font-family: Chelantro;
-    src: url(/fonts/Chelantro.otf);
+    src: url(../fonts/Chelantro.otf);
    
     
 }
@@ -106,7 +106,7 @@ img{
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    animation: imagenes 15s  infinite running alternate-reverse linear ;
+    animation: imagenes 15s  infinite running reverse linear ;
     
 }
     @media (min-width: 748px){
