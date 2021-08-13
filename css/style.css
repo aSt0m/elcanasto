@@ -28,6 +28,9 @@ img{
 @font-face {
     font-family: Chelantro;
     src: url(/fonts/Chelantro.otf);
+    src: url(/fonts/Chelantro.ttf);
+    src: url(/fonts/Chelantro.woff);
+    src: url(/fonts/Chelantro.woff2)
     
 }
 @font-face {
@@ -47,13 +50,15 @@ img{
 }
 .site-header{
     height: 100vh;
-    background: #000;   
+    /* background: #000;   */
+    background: url(/img/fondo1-700x1334.png);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-   
-      
+    
 }
 
 .bread{
@@ -76,9 +81,7 @@ img{
 .title{
     margin: 0;
     color:#fff8e7 ;  
-    /* font-family: "Regad" ,sans-serif; */
     font-family: "Chelantro", sans-serif;
-    /* font-family: "Konichiwa", sans-serif; */
     font-size: 6rem;
     text-decoration-color: rgb(208, 212, 191);
     letter-spacing: 0.6rem;
@@ -123,18 +126,16 @@ img{
     0%{
             
         height: 100%;
-        background: url(../img/fondo2.png);
+        background: url(../img/fondo2-700x1334.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
-            
-            
-
     }
+    
     20%{
         height: 100%;
         border: 1px solid #000;
-        background: url(../img/fondo3.png);
+        background: url(../img/fondo3-700x1334.png);
         background-position: center center;
         /* background-repeat: no-repeat; */
         background-size: cover;
@@ -143,7 +144,7 @@ img{
     40%{
         height: 100%;
         border: 1px solid #000;
-        background: url(../img/fondo4.png);
+        background: url(../img/fondo4-700x1334.png);
         background-position: center center;
         /* background-repeat: no-repeat; */
         background-size: cover;
@@ -152,21 +153,21 @@ img{
     60%{
         height: 100%;
         border: 1px solid #000;
-        background: url(../img/fondo5.png);
+        background: url(../img/fondo5-700x1334.png);
         background-position: center center;
         /* background-repeat: no-repeat; */
         background-size: cover;
     }
     80%{
         height: 100%;
-        background: url(../img/fondo6.png);
+        background: url(../img/fondo6-700x1334.png);
         background-position: center center;
         /* background-repeat: no-repeat; */
         background-size: cover;
     }
     100%{
         height: 100%;
-        background: url(../img/fondo7.png);
+        background: url(../img/fondo7-700x1334.png);
         background-position: center center;
         /* background-repeat: no-repeat; */
         background-size: cover;
