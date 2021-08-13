@@ -36,7 +36,7 @@ img{
 
 .completo{
     padding-top: 10px;
-    height: 100vh;
+    height: 100%;
     width: 100%;
     
     
@@ -63,39 +63,47 @@ img{
 }
 
 .texto{
+    height: 15rem;
     color: rgb(94, 99, 70);
     text-decoration-color: unset;
-    display: inline-block;
-    justify-content: center;
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    
+   
+    
     
 }
 
 .title{
     margin: 0;
-    color:#fff8e7 ;  
+    color:#f8e6bc ;  
     font-family: "Chelantro", sans-serif;
     font-size: 6rem;
     text-decoration-color: rgb(208, 212, 191);
-    letter-spacing: 0.6rem;
-    
-    
-    
+    letter-spacing: 0.6rem; 
 }
 
 .cta{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
     width: 50%;
+    font-size: 2rem;
+    color: rgb(208, 212, 191);
+    text-decoration: none;
     text-align: center;
-    display: inline;
     border: 1px solid #000;
     border-radius: 30px;
-    background: #f51e0e;
-    padding: 0 25px 3px;
+    background: #8b1f18;
+    padding: 1rem;
+    
 }
 .cta:hover{
     background: wheat;
     color: #000;
     cursor: pointer;
+    border: color 4px #8b1f18;
 }
   
  
