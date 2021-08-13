@@ -25,26 +25,39 @@ p{
 img{
     max-width: 100%;
 }
+@font-face {
+    font-family: Chelantro;
+    src: url(/fonts/Chelantro.otf);
+    
+}
+@font-face {
+    font-family: Regad;
+    font-family: Konichiwa;
+    src: url(/fonts/Konichiwa.ttf);
+    src: url(/fonts/Regad.ttf);
+}
+
 
 .completo{
     padding-top: 10px;
     height: 100vh;
     width: 100%;
     
+    
 }
 .site-header{
     height: 100vh;
-    background: url(../img/fondo1.png);   
+    background: #000;   
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
    
-   
-    
+      
 }
 
 .bread{
-    width: 60%;
+    width: 55%;
     text-align: center;
     
 
@@ -52,17 +65,27 @@ img{
 }
 
 .texto{
-    color: #000;
+    color: rgb(94, 99, 70);
     text-decoration-color: unset;
-    outline-color: wheat;
-    width: 50%;
     display: inline-block;
     justify-content: center;
     text-align: center;
     
 }
 
+.title{
+    margin: 0;
+    color:#fff8e7 ;  
+    /* font-family: "Regad" ,sans-serif; */
+    font-family: "Chelantro", sans-serif;
+    /* font-family: "Konichiwa", sans-serif; */
+    font-size: 6rem;
+    text-decoration-color: rgb(208, 212, 191);
+    letter-spacing: 0.6rem;
     
+    
+    
+}
 
 .cta{
     width: 50%;
@@ -70,16 +93,18 @@ img{
     display: inline;
     border: 1px solid #000;
     border-radius: 30px;
-    background: #2b5779;
+    background: #f51e0e;
     padding: 0 25px 3px;
 }
 .cta:hover{
     background: wheat;
+    color: #000;
+    cursor: pointer;
 }
   
  
 .imagenes{
-   
+    height: 100%;
     text-align: center;
     display: block;
     justify-content: center;
@@ -88,7 +113,7 @@ img{
     animation: imagenes 5s  infinite running alternate-reverse linear ;
     
 }
-    @media (min-width: 768px){
+    @media (min-width: 748px){
         .imagenes{
             display:flex;
         }
